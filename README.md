@@ -13,15 +13,15 @@ Crear un sitio web colaborativo, donde los padres puedan puedan encontrar series
 
 **DIA 1 :** MARTES 16
 
-**BENCHMARK** : ANÁLISIS DE LA COMPETENCIA
-**RESEARCH** : ENTENDIENDO LAS NECESIDADES DEL USUARIO
-**CUSTOMER JOURNEY:** VIAJE DEL USUARIO
-**ARQUETIPO DEL USUARIO:** EL USUARIO IDEAL
-**STORIES:** CASOS DE USO
-**DEFINIR EL MVP:** MINIMUM VIABLE PRODUCT
-**PATRONES DE INTERFAZ DE USUARIO (UI):**
-**SKETCH:** BOCETO DE NUESTRO PROYECTO
-**MOCKUP:** PLANTILLAS
+- **BENCHMARK** : ANÁLISIS DE LA COMPETENCIA
+- **RESEARCH** : ENTENDIENDO LAS NECESIDADES DEL USUARIO
+- **CUSTOMER JOURNEY:** VIAJE DEL USUARIO
+- **ARQUETIPO DEL USUARIO:** EL USUARIO IDEAL
+- **STORIES:** CASOS DE USO
+- **DEFINIR EL MVP:** MINIMUM VIABLE PRODUCT
+- **PATRONES DE INTERFAZ DE USUARIO (UI):**
+- **SKETCH:** BOCETO DE NUESTRO PROYECTO
+- **MOCKUP:** PLANTILLAS
 
 
 ![planning](assets/img/planning.jpg)
@@ -29,7 +29,7 @@ Crear un sitio web colaborativo, donde los padres puedan puedan encontrar series
 
 ## BENCHMARK : Análisis de la competencia
 
-###¿Qué otros productos similares hay en el mercado?
+### ¿Qué otros productos similares hay en el mercado?
 
 En una rápida investigación por google, sólo se pudo encontrar una página enfocada a este segmento se pudo observar que no hay una pápina especialmente dedicada a niños menos de 10 años, donde los padres puedan encontrar recomendaciones si son adecuadas.
 
@@ -93,7 +93,7 @@ Para nuestro mínimo producto viable, se ha considerado que la página contenga 
 
 #### Parrones de Interfaz de Usuario (UI)
 
-#####Tipos de Navegación
+##### Tipos de Navegación
 
 En base a nuestro bencharmark de la competencia directa e indirecta, se ha decidido lo siguiente:
 
