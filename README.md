@@ -49,7 +49,8 @@ https://goo.gl/forms/Rir8EdNjoP1Mmmhr2
 
 **Resultados de la Encuesta**
 
-PENDIENTE
+![poll-1](assets/img/poll-result-1.png)
+![poll-2](assets/img/poll-result-2.png)
 
 - Los padres por lo usual buscan recomendaciones de sus amigos o conocidos.
 
@@ -82,7 +83,7 @@ PENDIENTE
 
 ## STORIES: Casos de uso
 
-PENDIENTE COLOCAR FOTO
+![history](assets/img/history.jpeg)
 
 
 ## DEFINIR EL MVP: MINIMUM VIABLE PRODUCT
@@ -106,8 +107,20 @@ PENDIENTE: ADJUNTAR FOTOS DEL PROTOTIPADO
 
 
 #### WIREFRAMES
+**index.html**
+![skecth-1](assets/img/sketch-1.png)
 
-PENDIENTE: ADJUNTAR PANTALLAS
+**home.html**
+![skecth-2](assets/img/sketch-2.png)
+
+**list-movie.html**
+![skecth-3](assets/img/sketch-3.png)
+
+**login-signup.html**
+![skecth-4](assets/img/sketch-4.png)
+
+**profile-client.html**
+![skecth-5](assets/img/sketch-5.png)
 
 #### MOCKUPS
 
@@ -117,7 +130,7 @@ PENDIENTE: ADJUNTAR PANTALLAS
 
 2. Vista Home
 
-![logo](assets/img/homE.png)
+![logo](assets/img/home.png)
 
 #### Herramientas utilizadas:
 
