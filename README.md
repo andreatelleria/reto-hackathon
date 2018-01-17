@@ -117,7 +117,7 @@ PENDIENTE: ADJUNTAR PANTALLAS
 
 2. Vista Home
 
-![logo](assets/img/home.png)
+![logo](assets/img/homE.png)
 
 #### Herramientas utilizadas:
 
