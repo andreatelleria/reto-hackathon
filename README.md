@@ -6,7 +6,7 @@
 
 ### IDEA DE NEGOCIO:
 
-Crear un sitio web colaborativo, donde los padres puedan puedan encontrar series, videos o programas que tengan contenido adecuado para sus hijos mediante un sistema de valoraciones y recomendaciones.
+Crear un sitio web colaborativo, donde los padres puedan encontrar series, videos o programas que tengan contenido adecuado para sus hijos mediante un sistema de valoraciones y recomendaciones.
 
 
 ## Planificación:
@@ -31,9 +31,9 @@ Crear un sitio web colaborativo, donde los padres puedan puedan encontrar series
 
 ### ¿Qué otros productos similares hay en el mercado?
 
-En una rápida investigación por google, sólo se pudo encontrar una página enfocada a este segmento se pudo observar que no hay una pápina especialmente dedicada a niños menos de 10 años, donde los padres puedan encontrar recomendaciones si son adecuadas.
+En una rápida investigación por google, sólo se pudo encontrar una página enfocada a este segmento.
 
-###**COMPETENCIA DIRECTA: KIDS IN MIND**
+### **COMPETENCIA DIRECTA: KIDS IN MIND**
 
 ![competencia](assets/img/competencia.png)
 
@@ -140,3 +140,15 @@ PENDIENTE: ADJUNTAR FOTOS DEL PROTOTIPADO
 4. jQuery
 5. Materialize
 6. Illustrator
+
+### **Integrantes**
+
+
+>##### Andrea Cristina Tellería Pérez
+>##### Betsy Dessiré Lara Aspilcueta
+>##### Paola Silvana Huaman Luyo
+>##### Stephanie Carolina Wong Vega
+
+
+
+"La última y mejor experiencia que alguien tiene en cualquier lugar se convierte en la expectativa mínima de las experiencias que desean en todas partes."
