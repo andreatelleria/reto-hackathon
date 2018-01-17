@@ -16,15 +16,3 @@
   box-sizing: border-box;
 }
 
-img[alt="logo-nav"]{
-  height: 15vh;
-  width: 30vw;
-}
-
-@media screen and (min-width:992px){
-  /* logo navbar */
-  img[alt="logo-nav"]{
-    height: 8vh;
-    width: 9vw;
-  }
-}
