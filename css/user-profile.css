@@ -1,0 +1,53 @@
+/* .mainNav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.mainNav a, li {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.mainNav a:hover {
+  background-color: #ddd;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.mainNav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .mainNav li:not(:first-child) {
+    display: none;
+  }
+  .mainNav li.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .mainNav.responsive {
+    position: relative;
+  }
+  .mainNav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .mainNav.responsive li {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+} */
