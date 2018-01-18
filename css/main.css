@@ -1,18 +1,138 @@
-/* Paletas de colores
-  #ffaa00 ---> orange
-  #ff7baa ---> hotpink
-  #0ec1c2 ---> darkturquoise (intenso)
-  #434288 ---> darkslateblue
-  #fa488c ---> hotpink (intenso)
-  #fe4212 ---> orangered
-  #20c9f3 ---> deepskyblue
-  #82dff8 ---> lightskyblue
-  #65a8d8 ---> cornflowerblue
-  #1ac9e5 ---> darkturquoise
-  */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+body {
+  animation: colorchange 4s;
+  -webkit-animation: colorchange 4s;
+  animation-iteration-count: infinite;
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  font-weight: 800;
+  font-size: 2vw;
+  line-height: 100px;
+  display: flex;
+  align-items: center;
+ }
+  @keyframes colorchange
+{
+  0%   {background: -webkit-linear-gradient(top,rgb(212, 120, 129)ba7f8 ,rgb(248, 61, 79));
+        background: -o-linear-gradient(bottom ,rgb(212, 120, 129) ,rgb(248, 61, 79));
+        background: -moz-linear-gradient(bottom ,rgb(212, 120, 129) ,rgb(248, 61, 79));
+        background: linear-gradient(to bottom ,rgb(212, 120, 129) ,rgb(248, 61, 79));
+  }
+  50%  {background:  #add278;
+        background: -webkit-linear-gradient(top,#add278,#4fb66f);
+        background: -o-linear-gradient(bottom ,#add278,#4fb66f);
+        background: -moz-linear-gradient(bottom ,#add278,#4fb66f);
+        background: linear-gradient(to bottom ,#add278,#4fb66f);}
+  75%  {background: #83e1c5;
+        background: -webkit-linear-gradient(top,#83e1c5 ,#53c5d3);
+        background: -o-linear-gradient(bottom ,#83e1c5 ,#53c5d3);
+        background: -moz-linear-gradient(bottom ,#83e1c5 ,#53c5d3);
+        background: linear-gradient(to bottom ,#83e1c5 ,#53c5d3);
+  }
+  100% {background: #f19f63;
+        background: -webkit-linear-gradient(top,#f19f63 ,#dd5d42);
+        background: -o-linear-gradient(bottom ,#f19f63 ,#dd5d42);
+        background: -moz-linear-gradient(bottom ,#f19f63 ,#dd5d42);
+        background: linear-gradient(to bottom ,#f19f63 ,#dd5d42);}
 }
-
+@-webkit-keyframes colorchange
+{
+  0%  {background: -webkit-linear-gradient(top,rgb(212, 120, 129)ba7f8 ,rgb(248, 61, 79));
+      background: -o-linear-gradient(bottom ,rgb(212, 120, 129) ,rgb(248, 61, 79));
+      background: -moz-linear-gradient(bottom ,rgb(212, 120, 129) ,rgb(248, 61, 79));
+      background: linear-gradient(to bottom ,rgb(212, 120, 129) ,rgb(248, 61, 79));
+}
+50%   {background:  #add278;
+      background: -webkit-linear-gradient(top,#add278,#4fb66f);
+      background: -o-linear-gradient(bottom ,#add278,#4fb66f);
+      background: -moz-linear-gradient(bottom ,#add278,#4fb66f);
+      background: linear-gradient(to bottom ,#add278,#4fb66f);;}
+75%  {background: #83e1c5;
+      background: -webkit-linear-gradient(top,#83e1c5 ,#53c5d3);
+      background: -o-linear-gradient(bottom ,#83e1c5 ,#53c5d3);
+      background: -moz-linear-gradient(bottom ,#83e1c5 ,#53c5d3);
+      background: linear-gradient(to bottom ,#83e1c5 ,#53c5d3);;
+}
+100% {background: #f19f63;
+      background: -webkit-linear-gradient(top,#f19f63 ,#dd5d42);
+      background: -o-linear-gradient(bottom ,#f19f63 ,#dd5d42);
+      background: -moz-linear-gradient(bottom ,#f19f63 ,#dd5d42);
+      background: linear-gradient(to bottom ,#f19f63 ,#dd5d42);}
+}
+.logo {
+  display: block;
+  margin: 0 auto;
+  width: 30%;
+}
+img {
+  animation: zoom 1s ease-in-out;
+  animation-iteration-count: infinite;
+}
+/* animation zoom */
+@keyframes zoom {
+  0% {
+    transform: scale(1.0)
+  }
+  50% {
+    transform: scale(1.40)
+  }
+  100%{
+    transform: scale(1.0)
+  }
+}
+a {
+  color: #888;
+  display: table;
+  font-size: 18px;
+  margin: 0 auto;
+  text-align: center;
+  text-decoration: none;
+  width: auto;
+}
+.container {
+  display: table;
+  margin: 20px auto;
+  text-align: center;
+  width: 100%;
+}
+h1 span {
+  color: #000;
+  opacity: .3;
+  font-size: 100%;
+  padding-bottom: 15px;
+}
+/* código para el cursor parpadeo animado */
+.typed-cursor {
+  opacity: 1;
+  font-weight: 100;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  -ms-animation: blink 0.7s infinite;
+  -o-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+}
+@-keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+@-moz-keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+@-ms-keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+@-o-keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
