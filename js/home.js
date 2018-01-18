@@ -35,6 +35,8 @@ var loadPage = function () {
         showImage(target);
     });
 
+    
+
 };
 
 $(document).ready(loadPage);
