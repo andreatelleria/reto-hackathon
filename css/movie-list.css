@@ -1,0 +1,64 @@
+body {
+  background-image: url("../assets/img/fondomoviesinopsis.png");
+  background-size: cover;
+}
+
+/* header */
+img[alt="logo-nav"]{
+  position: relative;
+  bottom: 0.5em;
+  height: 7.5vh;
+  width: 21vw;
+}
+
+/* section-movie-gender*/
+.section-movie-gender select{
+  background-color: #50b848;
+  color: #ffffff;
+}
+
+/* section-movie-production */
+.section-movie-production select {
+  background-color: #99288c;
+  color: #ffffff;
+}
+
+
+/* footer */
+footer{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: #443f91;
+  color: #ffffff;
+}
+
+footer li{
+  list-style: none;
+}
+
+@media screen and (min-width:991px){
+  /* header */
+  img[alt="logo-nav"]{
+    position: relative;
+    right: 6em;
+    top: 1em;
+    width: 11%;
+    height: 9vh;
+  }
+
+  /* footer */
+  img[alt="logo-footer"]{
+    position: relative;
+    left: 14em;
+    top: 1em;
+    width: 30%;
+  }
+}
+
+
+
+
+
+  
