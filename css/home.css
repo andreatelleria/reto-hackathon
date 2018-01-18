@@ -1,14 +1,13 @@
 header#header {
     padding: 0;
     background: #FFFEF7;
-    min-height: 120px;
+    min-height: 100px;
     box-sizing: border-box;
 }
 
 #inner-header, #inner-content, #inner-footer, .inner-content {
     max-width: max-content;
     margin: auto;
-    /* margin-right: auto; */
 }
 
 .bar-lightblue {
@@ -63,17 +62,11 @@ input[type="search"] {
 
 
 input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], select, textarea, .field {
-    /* display: block; */
-    /* height: 40px; */
+    font-size: initial;
     margin-top: 5px;
     line-height: 1em;
     padding: 0 10px;
-    /* margin-bottom: 14px; */
-    /* font-size: 1em; */
-    /* color: #5c6b80; */
     border-radius: 3px;
-    /* vertical-align: middle; */
-    /* box-shadow: none; */
     border: 0;
     width: 100%;
     max-width: 400px;
@@ -87,20 +80,11 @@ input[type="text"], input[type="password"], input[type="datetime"], input[type="
 
 ul#menu-top-tabs > li > a {
     color: #6D6E70;
-    /* display: block; */
-    /* float: left; */
-    /* padding: 8px 20px 4px 10px; */
-    /* margin: 0; */
     font-family: 'Dosis', sans-serif;
     font-weight: bold;
-    /* line-height: 20px; */
-    /* min-width: 100px; */
     text-align: left;
     width: 100%;
     border-left: #DADBDC 2px solid;
-    /* background: url(/wp-content/uploads/nav-icons/channels.png) no-repeat 15px 1px; */
-    /* background-size: 25px; */
-    /* text-align: center; */
 }
 
 ul#menu-top-tabs > li:first-child > a {
@@ -153,6 +137,90 @@ li .inicio{
 
 /* carrusel */
 
-.moana {
-    background-position: center;
+
+.carrusel-content img{
+    width: 100%;
+    height: auto;
+
+}
+
+.carrusel-content {
+    display: none;
+
+}
+
+.carrusel-content.active {
+    display: block;
+}
+
+.control {
+    width: 15px;
+    height: 15px;
+    margin: 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.previous, .next {
+    color: white;
+    margin: 10px 30px;
+    text-decoration: none;
+}
+
+.control:hover, .previous:hover, .next:hover {
+    background: #4db6ac;
+    border: 1px solid #4db6ac;
+}
+
+.controles{
+    display: flex;
+    justify-content: center;
+}
+
+/* Segunda Sección */
+
+.inputs{
+    background: darkturquoise;
+    height: 42px;
+}
+
+.filtro {
+    display: flex;
+    justify-content: center;
+}
+
+.filtro ul li {
+    display: block;
+    position: relative;
+    float: left;
+    width: inherit;
+    margin-left: 10px;
+}
+
+.filtro input {
+    width: 250px;
+}
+
+/* Los más vistos */
+
+.titulos {
+    background-color: darkmagenta;
+    height: 40px;
+    margin: auto;
+    padding-top: 5px;
+}
+
+.titulos h5{
+    color: white;
+    margin: 0;
+    padding-left: 20%;
+    padding-top:10px;
+}
+
+.titulo .vistos{
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding-left: 20%;
+    padding-top: 5px;
 }
