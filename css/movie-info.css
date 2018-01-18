@@ -16,6 +16,79 @@ img[alt="logo-nav"]{
   width: 21vw;
 }
 
+/* section movie-details: */
+
+
+/* end section movie-details */
+
+/* section comments-movies */
+/* carousel */
+#quote-carousel
+{
+  padding: 0 0.625rem 1.875rem 0.625rem;
+  margin-top: 1.875rem;
+}
+
+/* Control buttons  */
+#quote-carousel .carousel-control
+{
+  background: none;
+  color: #222;
+  font-size: 2.3em;
+  text-shadow: none;
+  margin-top: 1.875rem;
+}
+/* Previous button  */
+#quote-carousel .carousel-control.left
+{
+  left: -0.75rem;
+}
+/* Next button  */
+#quote-carousel .carousel-control.right
+{
+  right: -0.75rem !important;
+}
+/* Changes the position of the indicators */
+#quote-carousel .carousel-indicators
+{
+  right: 50%;
+  top: auto;
+  bottom: 0rem;
+  margin-right: -1.1875rem;
+}
+/* Changes the color of the indicators */
+#quote-carousel .carousel-indicators li
+{
+  background: #c0c0c0;
+}
+#quote-carousel .carousel-indicators .active
+{
+  background: #333333;
+}
+#quote-carousel img
+{
+  width: 250px;
+  height: 100px
+}
+/* End carousel */
+
+.item blockquote {
+    border-left: none;
+    margin: 0;
+}
+
+.item blockquote img {
+    margin-bottom: 0.625rem;
+}
+
+.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 0.625rem;
+}
+/* end section comments-movies*/
+
 /* footer */
 footer{
   position: fixed;
@@ -38,6 +111,29 @@ footer li{
     top: 1em;
     width: 11%;
     height: 9vh;
+  }
+  /* section movie details */
+
+  /* section movie comments */
+  #quote-carousel
+  {
+    margin-bottom: 0;
+    padding: 0 2.5rem 1.875rem 2.5rem;
+  }
+
+  #quote-carousel .carousel-indicators {
+      bottom: -1.25rem !important;
+  }
+  #quote-carousel .carousel-indicators li {
+      display: inline-block;
+      margin: 0rem 0.3125rem;
+      width: 0.9375rem;
+      height: 0.9375rem;
+  }
+  #quote-carousel .carousel-indicators li.active {
+      margin: 0rem 0.3125rem;
+      width: 1.25rem;
+      height: 1.25rem;
   }
 
   /* footer */
