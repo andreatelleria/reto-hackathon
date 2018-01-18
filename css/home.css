@@ -224,3 +224,98 @@ li .inicio{
     padding-left: 20%;
     padding-top: 5px;
 }
+
+/* Seccion video */
+
+.container-video{
+    background-image: url("../assets/img/fondomoviesinopsis.png");
+}
+
+.videostop{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-count: 3;
+    justify-content: space-around;
+}
+
+.video{
+    background-color: cadetblue;
+    height: 400px;
+    width: 250px;
+    margin: 5px;
+}
+
+.video1{
+    background-image: url(../assets/cartelera/jefe.jpg);
+    background-size: 100% 100%;
+}
+
+.video2{
+    background-image: url(../assets/cartelera/rio.jpg);
+    background-size: 100% 100%;
+}
+
+.video3{
+    background-image: url(../assets/cartelera/coco.jpg);
+    background-size: 100% 100%;
+}
+
+.video4{
+    background-image: url(../assets/cartelera/calzoncillo.jpg);
+    background-size: 100% 100%;
+}
+
+.video5{
+    background-image: url(../assets/cartelera/frozen.jpg);
+    background-size: 100% 100%;
+}
+.video6{
+    background-image: url(../assets/cartelera/dory.jpg);
+    background-size: 100% 100%;
+}
+
+.video7{
+    background-image: url(../assets/cartelera/moanac.jpg);
+    background-size: 100% 100%;
+}
+
+.video8{
+    background-image: url(../assets/cartelera/monster.jpg);
+    background-size: 100% 100%;
+}
+
+.video9{
+    display: none;
+}
+
+@media (max-width: 1200px) {
+
+.video9{
+    display:block;
+    background-image: url(../assets/cartelera/minion.jpg);
+    background-size: 100% 100%;
+    }
+}
+
+
+
+/* Footer */
+
+footer#footer {
+    background: #39BFCD;
+    overflow: hidden;
+    clear: both;
+    padding: 2em 0;
+}
+
+footer#footer .footer-nav-section {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 16.66667%;
+    float: left;
+    padding-left: 12.5px;
+    padding-right: 12.5px;
+}
