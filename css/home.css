@@ -7,7 +7,7 @@ header#header {
 
 #inner-header, #inner-content, #inner-footer, .inner-content {
     max-width: max-content;
-    margin-left: auto;
+    margin: auto;
     /* margin-right: auto; */
 }
 
