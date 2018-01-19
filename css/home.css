@@ -1,3 +1,8 @@
+* {
+    max-width: 1300px;
+    margin: auto;
+}
+
 header#header {
     padding: 0;
     background: #FFFEF7;
@@ -210,11 +215,12 @@ li .inicio{
     padding-top: 5px;
 }
 
-.titulos h5{
+.titulos h5 {
     color: white;
     margin: 0;
-    padding-left: 20%;
-    padding-top:10px;
+    padding-left: 5%;
+    padding-top: 10px;
+    font-weight: bold;
 }
 
 .titulo .vistos{
@@ -302,14 +308,26 @@ li .inicio{
 
 /* Footer */
 
-footer#footer {
+footer {
     background: #39BFCD;
     overflow: hidden;
     clear: both;
     padding: 2em 0;
+    box-sizing: border-box;
 }
 
-footer#footer .footer-nav-section {
+footer .footer-nav-section h6 {
+    color: #C0E7FA;
+    font-size: 1em;
+}
+
+nav.containernav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.footer-nav-section {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
@@ -318,4 +336,12 @@ footer#footer .footer-nav-section {
     float: left;
     padding-left: 12.5px;
     padding-right: 12.5px;
+}
+
+.footer-nav-section li{
+    list-style: none;
+}
+
+.footer-nav-section ul{
+    padding: 0;
 }
