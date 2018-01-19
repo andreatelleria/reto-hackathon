@@ -2,69 +2,29 @@
 <html>
 
 <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>MovieKids</title>
-  <!-- Logo en browser tab -->
-  <link rel="shortcut icon" href="../assets/img/tab-logo.png">
-  <!-- cdn de fontawesome -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <!-- Framework Bootstrap enlazado -->
-  <link rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.min.css">
-  <!-- Hoja de estilo CSS enlazada -->
-  <link rel="stylesheet" href="../css/movie-info2.css">
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MovieKids</title>
+    <!-- Logo en browser tab -->
+    <link rel="shortcut icon" href="../assets/img/tab-logo.png">
+    <!-- cdn de fontawesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Framework Bootstrap enlazado -->
+    <link rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.min.css">
+    <!-- Hoja de estilo CSS enlazada -->
+    <link rel="stylesheet" href="../css/movie-info2.css">
 </head>
 
 <body>
-  <!-- header -->
-  <header id="header" class="bar-lightblue">
+<!-- header -->
+<header id="header" class="bar-lightblue">
     <div id="inner-header" class="group">
-      <p id="logo" class="h1">
-        <a href="#" rel="nofollow">
-          <img src="../assets/img/logo.png" width="100">
-        </a>
-      </p>
-      <!-- <div class="nav-icon">
-        <div class="c-hamburger c-hamburger--htx">
-          <span>MENU</span>
-        </div> -->
-
-      <nav class="mainNav">
-        <ul id="menu-top-tabs" class="nav top-nav group">
-          <li class="menu">
-            <a href="#">
-              <i class="fa fa-film" aria-hidden="true" style="color:darkviolet"></i>Películas</a>
-          </li>
-          <li class="menu">
-            <a href="#">
-              <i class="fa fa-television" aria-hidden="true" style="color:royalblue"></i>Series</a>
-          </li>
-          <li class="menu">
-            <a href="#">
-              <i class="fa fa-star" aria-hidden="true" style="color:red"></i>Estrenos</a>
-          </li>
-          <li class="menu">
-            <a href="#">
-              <i class="fa fa-pencil" aria-hidden="true" style="color:darkorange"></i>Recomendaciones</a>
-          </li>
-          <li>
-            <form role="search" method="get" id="searchform" class="searchform" action="#">
-              <div>
-                <input type="search" id="s" name="s" value="" placeholder="Search">
-              </div>
-            </form>
-          </li>
-          <li class="menu">
-            <button type="button" class="btn btn-primary btn-sm inicio" style="background-color:lightseagreen">Cerrar Sesión</button>
-          </li>
-          <!-- <li class="menu">
-            <button type="button" class="btn btn-primary btn-sm" style="background-color:blueviolet">Únete</button>
-          </li> -->
-          <li>
-            <a href="#" class="fb" target="_blank">
-              <i class="fa fa-facebook" aria-hidden="true" style="color:steelblue"></i>
+        <p id="logo" class="h1">
+            <a href="#" rel="nofollow">
+                <img src="../assets/img/logo.png" width="100">
             </a>
+<<<<<<< HEAD
           </li>
           <li>
             <a href="#" class="twitter" target="_blank">
@@ -140,7 +100,7 @@
       }
 
 
-    
+
       div.header.large.first.lazyloaded:before {
         filter: opacity(100) grayscale(100%) contrast(130%);
       }
@@ -376,8 +336,8 @@
           </section>
 
           </div>
-      
-<!-- 
+
+<!--
 
           <script type="text/javascript">
             $('td.none a.subscribe').on('click', function (e) {
@@ -593,6 +553,83 @@
         </div>
   </section>
 
+  <!--section Movie Comments-->
+  <section class="section-comments">
+    <div class="container">
+      <div class="row">
+        <div class='col-md-offset-2 col-md-8 text-center'>
+          <h2>Comments</h2>
+        </div>
+      </div>
+      <div class='row'>
+        <div class='col-md-offset-2 col-md-8'>
+          <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+            <!-- Bottom Carousel Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
+              <li data-target="#quote-carousel" data-slide-to="1"></li>
+              <li data-target="#quote-carousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Carousel Slides / Quotes -->
+            <div class="carousel-inner">
+              <!-- Quote 1 -->
+              <div class="item active">
+                <blockquote>
+                  <div class="row">
+                    <div class="col-sm-3 text-center">
+                      <img class="img-circle" src="../assets/img/user-masculino.jpg" style="width: 100px;height:100px;">
+                    </div>
+                    <div class="col-sm-9">
+                      <p>Es una buena Peli, se las recomiendo para los pequeños de casa</p>
+                      <span></span>
+                    </div>
+                  </div>
+                </blockquote>
+              </div>
+              <!-- Quote 2 -->
+              <div class="item">
+                <blockquote>
+                  <div class="row">
+                    <div class="col-sm-3 text-center">
+                      <img class="img-circle" src="../assets/img/user-femenino.jpg" style="width: 100px;height:100px;">
+                    </div>
+                    <div class="col-sm-9">
+                      <p>Las recomiendo tiene bonito final, ademas de que es muy entretenida para ellos</p>
+                      <span></span>
+                    </div>
+                  </div>
+                </blockquote>
+              </div>
+              <!-- Quote 3 -->
+              <div class="item">
+                <blockquote>
+                  <div class="row">
+                    <div class="col-sm-3 text-center">
+                      <img class="img-circle" src="../assets/img/user-masculino-2.png" style="width: 100px;height:100px;">
+                    </div>
+                    <div class="col-sm-9">
+                      <p>Es genial, divertida y el final les muestra una bonita enseñanza ... Recomendadisima!!</p>
+                      <span></span>
+                    </div>
+                  </div>
+                </blockquote>
+              </div>
+            </div>
+
+            <!-- Carousel Buttons Next/Prev -->
+            <a data-slide="prev" href="#quote-carousel" class="left carousel-control">
+              <i class="fa fa-chevron-left"></i>
+            </a>
+            <a data-slide="next" href="#quote-carousel" class="right carousel-control">
+              <i class="fa fa-chevron-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- footer -->
   <footer>
     <div class="container">
@@ -610,92 +647,572 @@
                 </li>
                 <li>
                   <a href="#">Free Resources</a>
-                </li>
-                <li>
-                  <a href="#">Películas en vivo</a>
-                </li>
-                <li>
-                  <a href="#">Blog</a>
-                </li>
-              </ul>
-            </div>
-            <div class="footer-nav-section">
-              <h6>Participa</h6>
-              <ul>
-                <li>
-                  <a href="#">Comentarios</a>
-                </li>
-                <li>
-                  <a href="#">Valoraciones</a>
-                </li>
-                <li>
-                  <a href="#" target="_blank">Medallas</a>
-                </li>
-                <li>
-                  <a href="#" target="_blank">Me gusta</a>
-                </li>
-                <li>
-                  <a href="#" target="_blank">Favoritos</a>
-                </li>
-              </ul>
-            </div>
-            <div class="footer-nav-section">
-              <h6>Contacto</h6>
-              <ul>
-                <li>
-                  <a href="/contact/">Contáctanos</a>
-                </li>
-                <li>
-                  <a href="#" target="_blank">Soporte</a>
-                </li>
-                <li>
-                  <a href="#" target="_blank">Licencia &amp; Distribución</a>
-                </li>
-                <li>
-                  <a href="#" target="_blank">Trabaja con Nosotros</a>
-                </li>
-              </ul>
-            </div>
-            <div class="footer-nav-section">
-              <h6>Síguenos</h6>
-              <ul>
-                <li>
-                  <a href="#" target="_blank">Facebook</a>
-                </li>
-                <li>
-                  <a href="#" target="_blank">Instagram</a>
-                </li>
-                <li>
-                  <a href="#" target="_blank">Pinterest</a>
-                </li>
-                <li>
-                  <a href="#" target="_blank">Twitter</a>
-                </li>
-              </ul>
-            </div>
-            <div class="footer-nav-section">
-              <img src="../assets/img/logoblanco.png" alt="">
-            </div>
-          </nav>
-        </div>
-      </div>
-    </div>
-  </footer>
+=======
+        </p>
+        <!-- <div class="nav-icon">
+          <div class="c-hamburger c-hamburger--htx">
+            <span>MENU</span>
+          </div> -->
 
-  <!-- Librería Jquery enlazada -->
-  <script src="../vendors/jquery/jquery-3.2.1.min.js"></script>
-  <!-- Archivo Jquery de Bootstrap enlazado -->
-  <script src="../vendors/bootstrap/js/bootstrap.min.js"></script>
-  <!-- Firebase-->
-  <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-app.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-auth.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-database.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-storage.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/4.9.0/firebase.js"></script>
-  <script src="../vendors/js/firebaseapp.js"></script>
-  <!-- Archivo JS enlazado-->
-  <script src="../js/movie-info2.js"></script>
+        <nav class="mainNav">
+            <ul id="menu-top-tabs" class="nav top-nav group">
+                <li class="menu">
+                    <a href="#">
+                        <i class="fa fa-film" aria-hidden="true" style="color:darkviolet"></i>Películas</a>
+>>>>>>> 120cd46bed1cb249fafe266fb0ba9b7188d7b1ab
+                </li>
+                <li class="menu">
+                    <a href="#">
+                        <i class="fa fa-television" aria-hidden="true" style="color:royalblue"></i>Series</a>
+                </li>
+                <li class="menu">
+                    <a href="#">
+                        <i class="fa fa-star" aria-hidden="true" style="color:red"></i>Estrenos</a>
+                </li>
+                <li class="menu">
+                    <a href="#">
+                        <i class="fa fa-pencil" aria-hidden="true" style="color:darkorange"></i>Recomendaciones</a>
+                </li>
+                <li>
+                    <div>
+                        <input type="text" id="searchText" name="searchText" placeholder="Pelicula">
+                    </div>
+                </li>
+                <li class="menu">
+                    <button type="button" class="btn btn-primary btn-sm inicio" style="background-color:lightseagreen">
+                        Cerrar Sesión
+                    </button>
+                </li>
+                <li>
+                    <a href="#" class="fb" target="_blank">
+                        <i class="fa fa-facebook" aria-hidden="true" style="color:steelblue"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="twitter" target="_blank">
+                        <i class="fa fa-twitter" aria-hidden="true" style="color:deepskyblue"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="image-container">
+            </div>
+            <div class="text-container"></div>
+        </div>
+    </div>
+
+</div>
+
+<!-- <section class="inner_content movie_content backdrop poster">
+    <style>
+        .k-header {
+            color: #ffffff;
+        }
+
+        .k-window-titlebar.k-header {
+            background-color: #1f2d54;
+        }
+
+        .k-window-titlebar .k-state-hover,
+        .k-overflow-container .k-primary:hover,
+        .k-primary:hover {
+            background-color: #1f2d54;
+            border-color: #1f2d54;
+        }
+
+        .k-tooltip.custom_theme {
+            background-color: #efbd4a;
+            color: #000000;
+        }
+
+        .custom_theme .k-tooltip-content {
+            white-space: nowrap;
+        }
+
+        .custom_theme .k-callout-n {
+            border-bottom-color: #efbd4a;
+        }
+
+        .custom_theme .k-callout-e {
+            border-left-color: #efbd4a;
+        }
+
+        .custom_theme .k-callout-w {
+            border-right-color: #efbd4a;
+        }
+
+        .custom_theme .k-callout-s {
+            border-top-color: #efbd4a;
+        }
+
+        .k-tooltip.tmdb_theme_light {
+            background-color: #97f8cd !important;
+            color: #000 !important;
+        }
+
+        .tmdb_theme_light .k-callout-n {
+            border-bottom-color: rgba(151, 248, 205, 1) !important;
+        }
+
+        .tmdb_theme_light .k-callout-e {
+            border-left-color: rgba(151, 248, 205, 1) !important;
+        }
+
+        .tmdb_theme_light .k-callout-w {
+            border-right-color: rgba(151, 248, 205, 1) !important;
+        }
+
+        .tmdb_theme_light .k-callout-s {
+            border-top-color: rgba(151, 248, 205, 1) !important;
+        }
+
+        div.header.large.first.lazyloaded:before {
+            filter: opacity(100) grayscale(100%) contrast(130%);
+        }
+
+        div.custom_bg {
+
+            background-image: radial-gradient(circle at 20% 50%, rgba(12.16%, 17.65%, 32.94%, 0.98) 0%, rgba(3.53%, 5.49%, 17.25%, 0.88) 100%);
+
+        }
+
+        section div.header.first div.single_column {
+            background: transparent;
+        }
+
+        section.inner_content section.header {
+            color: #fff;
+        }
+
+        section.inner_content section.header a,
+        section.inner_content section.header div.title a {
+            color: #fff;
+        }
+
+        section.inner_content a,
+        section.media_panel div.menu ul li.active a {
+            color: #000;
+        }
+
+        section.inner_content a:hover,
+        section.media_panel div.menu ul li.active a:hover {
+            color: #efbd4a;
+        }
+
+        section.inner_content section.header ul.actions li.tooltip a,
+        section.inner_content section.header ul.actions li.video a {
+            border-color: #fff;
+            color: #fff;
+        }
+
+        section.inner_content section.header ul.actions li.tooltip a:hover {
+            color: #efbd4a;
+            background-color: #000000;
+            border-color: rgba(100.00%, 100.00%, 100.00%, 0.20);
+        }
+
+        p.new_button a,
+        section.media_panel div.menu ul li.view_all a,
+        section.inner_content section.header ul.actions li.video a:hover,
+        div.episode div.info span.episode_number,
+        section.review div.review_container div.inner_content div.teaser p a {
+            color: #efbd4a;
+        }
+
+        p.rounded.new_button a:hover {
+            color: #000000;
+        }
+
+        section.media_panel div.menu ul li.active,
+        section.inner_content ul.shortcut_bar li.selected,
+        section.inner_content ul.shortcut_bar li:hover {
+            border-color: #efbd4a;
+        }
+
+        section.content_score div.content_score {
+            background-color: rgba(93.73%, 74.12%, 29.02%, 0.60);
+        }
+
+        p.new_button.rounded,
+        section.content_score div.content_score div,
+        div.leaderboard div.histogram div.bar span {
+            border-color: #efbd4a;
+            background-color: #efbd4a;
+            color: #000000;
+        }
+    </style>
+    <div class="header large border first lazyloaded">
+        <div class="custom_bg">
+
+            <div class="single_column">
+                <section class="images inner">
+                    <div class="poster">
+                        <div class="image_content">
+                            <img class="poster"
+                                 src="https://image.tmdb.org/t/p/w300_and_h450_bestv2/qC6UZX9Jc7DVyN5lFFDPvJBclHM.jpg"
+                                 alt="Los Minions">
+                        </div>
+                    </div>
+                    <div class="header_poster_wrapper">
+                        <div class="title" dir="auto">
+                          <span>
+                            <a href="#">
+                              <h2 class="11">Los Minions</h2>
+                            </a>
+                            <span class="release_date">(2015)</span>
+                          </span>
+                        </div>
+                        <div class="header_info">
+                            <h3 dir="auto">General</h3>
+                            <div class="overview" dir="auto">
+                                <p>La historia de Los Minions se remonta al principio de los tiempos. Empezaron
+                                    siendo organismos amarillos
+                                    unicelulares que evolucionaron a través del tiempo, poniéndose siempre al
+                                    servicio de los amos más
+                                    despreciables. Ante su incapacidad para mantener a esos amos – desde el T. Rex a
+                                    Napoleón –, los Minions
+                                    acaban encontrándose solos y caen en una profunda depresión. Sin embargo, uno de
+                                    ellos, llamado Kevin,
+                                    tiene un plan. Acompañado por el rebelde Stuart y el adorable Bob, emprende un
+                                    emocionante viaje para
+                                    conseguir una jefa a quien servir, la terrible Scarlet Overkill. Pasarán de la
+                                    helada Antártida, a
+                                    la ciudad de Nueva York en los años sesenta, para acabar en el Londres de la
+                                    misma época, donde deberán
+                                    enfrentarse al mayor reto hasta la fecha: salvar a la raza Minion de la
+                                    aniquilación.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+
+            <!--
+
+                      <script type="text/javascript">
+                        $('td.none a.subscribe').on('click', function (e) {
+                          var item_type = $(this).attr('data-type');
+                          var item_id = $(this).attr('data-id');
+
+                          $.ajax({
+                            url: '/notifications/subscribe_to_group',
+                            type: 'PUT',
+                            data: {
+                              media_type: item_type,
+                              media_id: item_id
+                            }
+                          }).error(function () {
+                            showError('Ha habido un problema.');
+                          }).done(function (response) {
+
+                            if (response.failure) {
+                              showError('Ha habido un problema.');
+                            }
+
+                            if (response.success) {
+                              showSuccess('Subscribed', 'Correcto');
+                              $('td.none p.notify').toggleClass('hide');
+                            }
+
+                          });
+                        });
+
+                        $('td.none a.unsubscribe').on('click', function (e) {
+                          var item_type = $(this).attr('data-type');
+                          var item_id = $(this).attr('data-id');
+
+                          $.ajax({
+                            url: '/notifications/subscribe_to_group',
+                            type: 'DELETE',
+                            data: {
+                              media_type: item_type,
+                              media_id: item_id
+                            }
+                          }).error(function () {
+                            showError('Ha habido un problema.');
+                          }).done(function (response) {
+
+                            if (response.failure) {
+                              showError('Ha habido un problema.');
+                            }
+
+                            if (response.success) {
+                              showSuccess('Unsubscribed', 'Correcto');
+                              $('td.none p.notify').toggleClass('hide');
+                            }
+
+                          });
+                        });
+                      </script>
+
+
+                      <script>
+                        $(document).ready(function () {
+
+                          $('section.social_panel a.media_panel').on('click', function (e) {
+                            e.preventDefault();
+                            var link = $(this);
+                            var selected_id = this.id;
+
+                            $.ajax({
+                              url: '/movie/211672-minions/remote/social_panel/' + selected_id + '?timezone=America/New_York',
+                              headers: {
+                                'Accept-Language': 'es-ES',
+                                'Content-Type': 'text/html;charset=utf-8'
+                              }
+                            }).done(function (response) {
+                              $('section.social_panel ul li.active').removeClass('active');
+                              link.parent().addClass('active');
+
+                              $('section.social_panel div.content').hide().html(response).fadeIn(300);
+                              $("section.social_panel div.content").find("script").each(function (i) {
+                                eval($(this).text());
+                              });
+                            });
+                          });
+
+                          var review_panel_height = $('div.header.large.review').innerHeight();
+                          $('div.review_container div.image').height(review_panel_height);
+
+                          var original_media_panel_content = $('section.media_panel.media div.content div.original_content').clone();
+
+                          $('section.media_panel.media a.media_panel').on('click', function (e) {
+                            e.preventDefault();
+                            var link = $(this);
+                            var item_count = link.find('span').text();
+                            var selected_id = this.id;
+
+                            switch (selected_id) {
+                              case 'popular':
+                                var view_all = ''
+                                break;
+                              case 'videos':
+                                var view_all = '<a href="/movie/211672-minions/videos">Ver todos los vídeos</a>'
+                                break;
+                              case 'backdrops':
+                                var view_all = '<a href="/movie/211672-minions/images/backdrops">Ver todas las Imágenes de Fondo</a>'
+                                break;
+                              default:
+                                var view_all = '<a href="/movie/211672-minions/images/posters">Ver todos los Pósters</a>'
+                            }
+
+                            if (selected_id == 'popular') {
+                              $('section.media_panel.media ul li.active').removeClass('active');
+                              link.parent().addClass('active');
+                              $('section.media_panel.media div.content').scrollLeft(0);
+                              $('section.media_panel.media div.content').html(original_media_panel_content);
+                              $('section.media_panel.media ul li.view_all').html(view_all);
+                            } else {
+                              $.ajax({
+                                url: '/movie/211672-minions/remote/media_panel/' + selected_id + '?translate=false&item_count=' + item_count,
+                                type: 'GET'
+                              }).done(function (response) {
+                                $('section.media_panel.media ul li.active').removeClass('active');
+                                link.parent().addClass('active');
+                                $('section.media_panel.media div.content').scrollLeft(0);
+                                $('section.media_panel.media div.content').html(response);
+                                $('section.media_panel.media ul li.view_all').html(view_all);
+                              });
+                            }
+                          });
+
+
+                          var recommendation_account_check = false;
+                          var waypoint = new Waypoint({
+                            element: document.getElementById('recommendation_waypoint'),
+                            handler: function (direction) {
+                              if (direction == 'down' && !recommendation_account_check) {
+                                recommendation_account_check = true;
+                                attachLoggedInAccountTooltips(["4f5259ec19c2951adf002257", "50cdfd9c19c2957b79385f6e", "537ccf35c3a36854f4001507", "50f95ee419c2952ec71b54fe", "514398f019c29533e002f127", "530f7076c3a368744e0011dd", "536e08c40e0a2647d100f93e", "4fb35f4319c29538d700249b"], 'stephaniewv', '5a6017a5c3a368780300eecc', 'Añadir a lista de favoritos', 'Añadir a tu lista de pendientes de ver', 'Quitar de tu lista de favoritos', 'Quitar de tu lista de pendientes de ver');
+                                enableLoggedInAccountTooltipActions('movie', 'stephaniewv', 'Añadir a lista de favoritos', 'Añadir a tu lista de pendientes de ver', 'Quitar de tu lista de favoritos', 'Quitar de tu lista de pendientes de ver');
+                              }
+                            },
+                            offset: '100%'
+                          });
+
+
+                          function createPopularitySparkline(response) {
+                            $("#popularity_chart").kendoSparkline({
+                              data: response.values,
+                              legend: {
+                                visible: false
+                              },
+                              plotArea: {
+                                opacity: 0,
+                                margin: 0
+                              },
+                              chartArea: {
+                                margin: {
+                                  top: 1,
+                                  bottom: 0,
+                                  left: 0,
+                                  right: 0
+                                },
+                                padding: 0,
+                                background: 'transparent'
+                              },
+                              categoryAxis: {
+                                categories: response.labels,
+                                crosshair: {
+                                  visible: false
+                                }
+                              },
+                              series: [{
+                                type: 'line',
+                                color: "#efbd4a",
+                                data: response.values,
+                                spacing: 0,
+                                gap: 0,
+                                width: 2,
+                                padding: 0
+                              }],
+                              tooltip: {
+                                visible: true,
+                                background: "#081c24",
+                                color: "#fff",
+                                border: {
+                                  width: 0,
+                                  color: "transparent"
+                                },
+                                font: "600 1.2em 'Source Sans Pro', 'Arial', sans-serif",
+                                format: "N0",
+                                template: "Ranked #= Math.abs(value) #"
+                              },
+                            });
+                          }
+
+                          popularity_loaded = false;
+                          new Waypoint({
+                            element: document.getElementById('popularity_waypoint'),
+                            handler: function (direction) {
+                              if (direction == 'down' && !popularity_loaded) {
+                                $.ajax({
+                                  url: '/movie/211672-minions/remote/popularity?translate=false',
+                                  type: 'GET'
+                                }).done(function (response) {
+                                  popularity_loaded = true;
+                                  createPopularitySparkline(response);
+                                });
+                              }
+                            },
+                            offset: '100%'
+                          });
+
+                        });
+                      </script> -->
+        </div>
+<!-- </section> --> -->
+
+<!-- footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <nav class="containernav">
+                    <div class="footer-nav-section">
+                        <h6>Explora</h6>
+                        <ul>
+                            <li>
+                                <a href="#">Sobre Nosotros</a>
+                            </li>
+                            <li>
+                                <a href="#">Movie Kids</a>
+                            </li>
+                            <li>
+                                <a href="#">Free Resources</a>
+                            </li>
+                            <li>
+                                <a href="#">Películas en vivo</a>
+                            </li>
+                            <li>
+                                <a href="#">Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-nav-section">
+                        <h6>Participa</h6>
+                        <ul>
+                            <li>
+                                <a href="#">Comentarios</a>
+                            </li>
+                            <li>
+                                <a href="#">Valoraciones</a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">Medallas</a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">Me gusta</a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">Favoritos</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-nav-section">
+                        <h6>Contacto</h6>
+                        <ul>
+                            <li>
+                                <a href="/contact/">Contáctanos</a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">Soporte</a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">Licencia &amp; Distribución</a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">Trabaja con Nosotros</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-nav-section">
+                        <h6>Síguenos</h6>
+                        <ul>
+                            <li>
+                                <a href="#" target="_blank">Facebook</a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">Instagram</a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">Pinterest</a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">Twitter</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-nav-section">
+                        <img src="../assets/img/logoblanco.png" alt="">
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Librería Jquery enlazada -->
+<script src="../vendors/jquery/jquery-3.2.1.min.js"></script>
+<!-- Archivo Jquery de Bootstrap enlazado -->
+<script src="../vendors/bootstrap/js/bootstrap.min.js"></script>
+<!-- Firebase-->
+<script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-storage.js"></script>
+<script src="../vendors/js/firebaseapp.js"></script>
+<!-- Archivo JS enlazado-->
+<script src="../js/movie-info2.js"></script>
 </body>
 
 </html>

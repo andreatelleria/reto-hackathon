@@ -53,11 +53,9 @@
               <i class="fa fa-pencil" aria-hidden="true" style="color:darkorange"></i>Recomendaciones</a>
           </li>
           <li>
-            <form role="search" method="get" id="searchform" class="searchform" action="#">
-              <div>
-                <input type="search" id="s" name="s" value="" placeholder="Search">
-              </div>
-            </form>
+            <div>
+              <input type="text" id="searchText" name="s" value="" placeholder="Search">
+            </div>
           </li>
           <li class="menu">
             <button id="signup" type="button" class="btn btn-primary btn-sm inicio" style="background-color:lightseagreen">Inicia Sesión</button>
@@ -104,39 +102,6 @@
     </div>
   </section>
 
-  <section>
-    <div class="container-fluid inputs">
-      <div class="row">
-        <div class="col-xs-12 filtro">
-          <ul>
-            <li>
-              <form role="search" method="get" id="searchform" class="searchform" action="#">
-                <div>
-                  <input type="search" id="s" name="s" value="" placeholder="Search">
-                </div>
-              </form>
-            </li>
-            <li>
-              <div id="toolbar">
-                <select class="form-control">
-                  <option value="disney">Disney</option>
-                  <option value="Pixar">Pixar</option>
-                  <option value="dream">DreamWorks</option>
-                  <option value="warner">Warner Bross</option>
-                  <option value="ghibli">Ghibli</option>
-                </select>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="titulos">
-      <div class="vistos">
-      <h5>Los más vistos</h5>
-      </div>
-    </div>
-  </section>
   <section>
     <div class="container-fluid container-video">
       <div class="row">
@@ -219,8 +184,7 @@
   <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-auth.js"></script>
   <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-database.js"></script>
   <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-storage.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/4.9.0/firebase.js"></script>
-  <script src="../vendors/js/firebaseapp.js"></script>
+  <script src="../vendors/js/firebaseapp.js"></script>>
   <!-- Archivo JS enlazado-->
   <script src="../js/home.js"></script>
 </body>
