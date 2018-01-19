@@ -1,3 +1,5 @@
+// Slider
+
 var target = 0;
 
 var loadPage = function () {
@@ -35,8 +37,14 @@ var loadPage = function () {
         showImage(target);
     });
 
-    
-
 };
 
 $(document).ready(loadPage);
+
+$('#signup').click(function () {
+    window.location.href = '../views/signup.html';
+});
+
+$('#login').click(function () {
+    window.location.href = '../views/login.html';
+});
