@@ -2,7 +2,7 @@ $(document).ready(function () {
 
   $('.button-checkbox').each(function () {
 
-    // Settings
+    // Declaramos variables
     var $widget = $(this),
       $button = $widget.find('button'),
       $checkbox = $widget.find('input:checkbox'),
@@ -26,14 +26,14 @@ $(document).ready(function () {
       updateDisplay();
     });
 
-    // Actions
+    // Acciones
     function updateDisplay() {
       var isChecked = $checkbox.is(':checked');
 
-      // Set the button's state
+      // Definir si el recuadro está o no marcado
       $button.data('state', (isChecked) ? "on" : "off");
 
-      // Set the button's icon
+      // Cambiar de icon 
       $button.find('.state-icon')
         .removeClass()
         .addClass('state-icon ' + settings[$button.data('state')].icon);
