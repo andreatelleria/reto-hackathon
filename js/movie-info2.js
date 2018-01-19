@@ -51,7 +51,7 @@ $(document).ready(function () {
 
                             divSingle.append(innerSection);
 
-                            $('.custom_bg').append(divSingle);
+                            $('.image-container').append(divSingle);
 
                             console.log(divSingle);
 
