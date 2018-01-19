@@ -2,31 +2,31 @@
     max-width: 1300px;
     margin: auto;
   }
-  
+
   body {
     background-image: url(../assets/img/fondomoviesinopsis.png);
     background-size: 100vh;
     background-repeat: repeat;
   }
-  
+
   header#header {
     padding: 0;
     background: rgb(255, 255, 255);
     min-height: 100px;
     box-sizing: border-box;
   }
-  
+
   #inner-header, #inner-content, #inner-footer, .inner-content {
     max-width: max-content;
     margin: auto;
   }
-  
+
   .bar-lightblue {
     border-bottom: 8px solid rgb(171, 225, 250);
   }
-  
+
   /* Centrar nav */
-  
+
   header#header nav {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -37,9 +37,9 @@
     margin-top: 27px;
     position: relative;
   }
-  
+
   /* Coloca logo al costado del nav */
-  
+
   header#header #logo {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -51,17 +51,17 @@
     margin: 0;
     padding-top: 10px;
   }
-  
+
   /* Poner en horizontal */
-  
+
   ul#menu-top-tabs > li {
     display: block;
     position: relative;
     float: left;
     width: inherit;
   }
-  
-  
+
+
   input[type="search"] {
     height: 32px;
     font-size: .8em;
@@ -70,8 +70,8 @@
     border-radius: 3px;
     transition: .4s all ease;
   }
-  
-  
+
+
   input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], select, textarea, .field {
     font-size: initial;
     margin-top: 5px;
@@ -87,8 +87,8 @@
     -webkit-transition: background-color 0.24s ease-in-out;
     transition: background-color 0.24s ease-in-out;
   }
-  
-  
+
+
   ul#menu-top-tabs > li > a {
     color: #6D6E70;
     font-family: 'Dosis', sans-serif;
@@ -97,39 +97,39 @@
     width: 100%;
     border-left: #DADBDC 2px solid;
   }
-  
+
   ul#menu-top-tabs > li:first-child > a {
     border-left: none;
   }
-  
+
   ul#menu-top-tabs > li:nth-last-child(2) > a {
     border-left: none;
   }
-  
+
   ul#menu-top-tabs > li:nth-last-child(3) > a {
     border-left: none;
   }
-  
+
   ul#menu-top-tabs > li:nth-last-child(4) > a {
     border-left: none;
   }
-  
+
   ul#menu-top-tabs > li:last-child > a {
     border-left: none;
   }
-  
+
   i.fa {
     padding-right: 5px;
   }
-  
+
   ul#menu-top-tabs > li > a.fb{
     min-width: 5px;
   }
-  
+
   ul#menu-top-tabs > li > a.twitter{
     min-width: 5px;
   }
-  
+
   .btn-primary {
     color: #fff;
     border: lightseagreen;
@@ -139,13 +139,13 @@
     border-radius: 10px;
     width: 90px;
   }
-  
+
   li .inicio{
     margin-left: 20px;
   }
-  
+
   /* Fin Navbar */
-  
+
   /* Contenido */
 
   .k-header {
@@ -294,7 +294,7 @@
     padding-bottom: 40px;
     z-index: 0;
 }
-  
+
 section.inner_content section.images {
     display: flex;
     align-items: flex-start;
@@ -364,9 +364,77 @@ ol.people {
     display: flex;
 }
 
+/* section comments-movies */
+/* carousel */
+#quote-carousel
+{
+  padding: 0 0.625rem 1.875rem 0.625rem;
+  margin-top: 1.875rem;
+}
+
+/* Control buttons  */
+#quote-carousel .carousel-control
+{
+  background: none;
+  color: #222;
+  font-size: 2.3em;
+  text-shadow: none;
+  margin-top: 1.875rem;
+}
+/* Previous button  */
+#quote-carousel .carousel-control.left
+{
+  left: -0.75rem;
+}
+/* Next button  */
+#quote-carousel .carousel-control.right
+{
+  right: -0.75rem !important;
+}
+/* Changes the position of the indicators */
+#quote-carousel .carousel-indicators
+{
+  right: 50%;
+  top: auto;
+  bottom: 0rem;
+  margin-right: -1.1875rem;
+}
+/* Changes the color of the indicators */
+#quote-carousel .carousel-indicators li
+{
+  background: #c0c0c0;
+}
+#quote-carousel .carousel-indicators .active
+{
+  background: #333333;
+}
+#quote-carousel img
+{
+  width: 250px;
+  height: 100px
+}
+/* End carousel */
+
+.item blockquote {
+    border-left: none;
+    margin: 0;
+}
+
+.item blockquote img {
+    margin-bottom: 0.625rem;
+}
+
+.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 0.625rem;
+}
+/* end section comments-movies*/
+
 
   /* Footer */
-  
+
   footer {
     background: #39BFCD;
     overflow: hidden;
@@ -374,18 +442,18 @@ ol.people {
     padding: 2em 0;
     box-sizing: border-box;
   }
-  
+
   footer .footer-nav-section h6 {
     color: #C0E7FA;
     font-size: 1em;
   }
-  
+
   nav.containernav {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
   }
-  
+
   .footer-nav-section {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -396,11 +464,11 @@ ol.people {
     padding-left: 12.5px;
     padding-right: 12.5px;
   }
-  
+
   .footer-nav-section li{
     list-style: none;
   }
-  
+
   .footer-nav-section ul{
     padding: 0;
   }
