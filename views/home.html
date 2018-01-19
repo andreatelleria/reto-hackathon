@@ -37,7 +37,7 @@
       <nav class="mainNav">
         <ul id="menu-top-tabs" class="nav top-nav group">
           <li class="menu">
-            <a href="#">
+            <a href="movie-list.html">
               <i class="fa fa-film" aria-hidden="true" style="color:darkviolet"></i>Películas</a>
           </li>
           <li class="menu">
@@ -60,10 +60,10 @@
             </form>
           </li>
           <li class="menu">
-            <button type="button" class="btn btn-primary btn-sm inicio" style="background-color:lightseagreen">Inicia Sesión</button>
+            <button id="signup" type="button" class="btn btn-primary btn-sm inicio" style="background-color:lightseagreen">Inicia Sesión</button>
           </li>
           <li class="menu">
-            <button type="button" class="btn btn-primary btn-sm" style="background-color:blueviolet">Únete</button>
+            <button id="login" type="button" class="btn btn-primary btn-sm" style="background-color:blueviolet">Únete</button>
           </li>
           <li>
             <a href="#" class="fb" target="_blank">
@@ -80,10 +80,7 @@
     </div>
   </header>
 
-
-
   <section>
-    <div class="carrusel bar-lightblue">
       <div data-slide="0" class="carrusel-content active">
         <img src="../assets/img/moana.jpg" alt="img1">
       </div>
@@ -216,6 +213,14 @@
   <script src="../vendors/jquery/jquery-3.2.1.min.js"></script>
   <!-- Archivo Jquery de bootstrap enlazado -->
   <script src="../vendors/bootstrap/js/bootstrap.min.js"></script>
+  <!-- Firebase-->
+  <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-database.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-storage.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.9.0/firebase.js"></script>
+  <script src="../vendors/js/firebaseapp.js"></script>
   <!-- Archivo JS enlazado-->
   <script src="../js/home.js"></script>
 </body>
