@@ -1,100 +1,53 @@
-$(document).ready(function() {
-  // declaracion de variables
-  var $searchText = ('#searchText');
-  var $values = ['disney', 'pixar', 'dream', 'warner', 'ghibli'];
-  // botones
-  var $btnSearch = ('#btnSearch');
-  var $btnSignup = ('#btnSignup');
-  var $btnRegister = ('#btnRegister');
-
-  // dropdown
-  var $selectGender = ('#selectGender');
-  var $selectProductor = ('#selectProductor');
-
-  // eventos
-  // para los botones el evento click
-  // $btnSignup.on('click', function(event) {
-  //   event.preventDefault();
-  //   window.location.href = '../views/signup.html';
-  // });
-
-  $btnSearch.on('submit', function(event) {
+$(document).ready(() => {
+  // Dando un evento al formulario
+  $('#searchForm').on('submit', (event) => {
+    // declarando la variable para el input de busqueda
+    var searchText = $('#searchText').val();
+    // Llamando a la función con parámetros
+    getMovies(searchText);
     event.preventDefault();
-    axios.get('http://www.omdbapi.com?s=' + $searchText + '&apikey=510e70b6')
-      .then((response) => {
-        console.log(response);
-        var movies = response.data.Search;
-        var output = '';
-        $.each(movies, (index, movie) => {
-          output += `
-        <div class="col-md-3">
-          <div class="well text-center">
-            <img src="${movie.Poster}" class="img-responsive">
-            <h5>${movie.Title}</h5>
-            <a onclick="movieSelected('${movie.imdbID}')" class="btn btn-primary" href="#">Movie Details</a>
-          </div>
-        </div>
-      `;
-        });
-    
-        $('#movies').html(output);
-      })
-      .catch((err) => {
-        console.log(err);
-      });
-
-    function getMovie() {
-      var movieId = sessionStorage.getItem('movieId');
-    
-      axios.get('http://www.omdbapi.com?i=' + movieId + '&apikey=510e70b6')
-        .then((response) => {
-          console.log(response);
-          var movie = response.data;
-    
-          var output = `
-            <div class="row">
-              <div class="col-md-4">
-                <img src="${movie.Poster}" class="thumbnail">
-              </div>
-              <div class="col-md-8">
-                <h2>${movie.Title}</h2>
-                <ul class="list-group">
-                  <li class="list-group-item"><strong>Genre:</strong> ${movie.Genre}</li>
-                  <li class="list-group-item"><strong>Released:</strong> ${movie.Released}</li>
-                  <li class="list-group-item"><strong>Rated:</strong> ${movie.Rated}</li>
-                  <li class="list-group-item"><strong>IMDB Rating:</strong> ${movie.imdbRating}</li>
-                  <li class="list-group-item"><strong>Director:</strong> ${movie.Director}</li>
-                  <li class="list-group-item"><strong>Writer:</strong> ${movie.Writer}</li>
-                  <li class="list-group-item"><strong>Actors:</strong> ${movie.Actors}</li>
-                </ul>
-              </div>
-            </div>
-            <div class="row">
-              <div class="well">
-                <h3>Plot</h3>
-                ${movie.Plot}
-                <hr>
-                <a href="http://imdb.com/title/${movie.imdbID}" target="_blank" class="btn btn-primary">View IMDB</a>
-                <a href="index.html" class="btn btn-default">Go Back To Search</a>
-              </div>
-            </div>
-          `;
-    
-          $('#movie').html(output);
-        })
-        .catch((err) => {
-          console.log(err);
-        });
-    }
   });
 });
 
-// otra forma
-// $selectGender.on('change', function(event) {
-//   event.preventDefault();
-// });
-// function apiCall() {
-//   $.getJSON('http://www.omdbapi.com?s=' + encodeURI($values[0])) + '&apikey=510e70b6'.then(function(response) {
-//     ('section-img-produc > figure').append('<img class="img-responsive" src=' + ${response.Poster} + '>');
-//   });
-// }
+// 
+function getMovies(searchText) {
+  // conexion con axios para acceder al api del omdb, le pasamos el parametro de s para la busqueda de search y le pasamos la llave 
+  // para acceder a la informacion
+  axios.get('http://www.omdbapi.com?s=' + searchText + '&apikey=510e70b6')
+    .then((response) => {
+      // declarando la variable para acceder a las peliculas
+      var movies = response.data.Search;
+      // Para poder llenar los datos dinamicamente, creamos la variable
+      var dataHtml = '';
+      // Hacemos un recorrido para acceder al index de la pelicula 
+      $.each(movies, (index, movie) => {
+        // Llenamos mediante el html y agregamos la etiqueta a
+        dataHtml += `
+          <div class="col-md-3">
+            <div class="well text-center">
+              <a href="movie-info.html"><img src="${movie.Poster}" class="img-responsive"></a>
+              <h5>${movie.Title}</h5>
+            </div>
+          </div>
+        `;
+      });
+      $('#movies').html(dataHtml);
+    })
+    // uso del catch para filtrar cualquier error
+    .catch((err) => {
+      alert('Error, cerrar la pag');
+    });
+}
+
+function getMovie() {
+  // para guardar la imagen de la pelicula mostrada
+  var movieId = sessionStorage.getItem('movieId');
+  axios.get('http://www.omdbapi.com?s=' + movieId + '&apikey=510e70b6')
+    .then((response) => {
+      var movie = response.data;
+      $('#movie').html(dataHtml);
+    })
+    .catch((err) => {
+      alert('Error, cerrar la pag');
+    });
+}
