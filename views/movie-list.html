@@ -50,11 +50,9 @@
               <i class="fa fa-pencil" aria-hidden="true" style="color:darkorange"></i>Recomendaciones</a>
           </li>
           <li>
-            <form role="search" method="get" id="searchform" class="searchform" action="#">
-              <div>
-                <input type="search" id="searchText" name="s" value="" placeholder="Search">
-              </div>
-            </form>
+            <div>
+              <input type="text" id="searchText" name="searchText" placeholder="Pelicula">
+            </div>
           </li>
           <li class="menu">
             <button type="button" class="btn btn-primary btn-sm inicio" style="background-color:lightseagreen">Cerrar Sesión</button>
@@ -82,12 +80,7 @@
       <div class="row">
         <div class="col-xs-12 col-sm-3 col-md-3">
           <h2 class="text-center">Filtro de Películas</h2>
-          <select name="Genero" id="selectGenero" class="btn btn-default dropdown-toggle col-xs-12">
-            <option value="aventura">Aventura</option>
-            <option value="ciencia">Ciencia Ficción</option>
-            <option value="comedia">Comedia</option>
-            <option value="fantasia">Fantasía</option>
-            <option value="musicales">Musicales</option>
+          <select name="Genero" id="selectGender" class="btn btn-default dropdown-toggle col-xs-12">
           </select>
         </div>
       </div>
@@ -244,7 +237,6 @@
   <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-auth.js"></script>
   <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-database.js"></script>
   <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-storage.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/4.9.0/firebase.js"></script>
   <script src="../vendors/js/firebaseapp.js"></script>
   <!-- Archivo JS enlazado-->
   <script src="../js/movie-list.js"></script>
