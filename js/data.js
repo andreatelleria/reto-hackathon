@@ -159,5 +159,4 @@ var peliculas = {
       actors: 'Kelly Sheridan, Melissa Lyons, Julie Stevens'
     },
   ]
-
 };
