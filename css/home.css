@@ -3,9 +3,15 @@
     margin: auto;
 }
 
+body {
+    background-image: url(../assets/img/fondomoviesinopsis.png);
+    background-size: 100vh;
+    background-repeat: repeat;
+}
+
 header#header {
     padding: 0;
-    background: #FFFEF7;
+    background: rgb(255, 255, 255);
     min-height: 100px;
     box-sizing: border-box;
 }
@@ -233,9 +239,7 @@ li .inicio{
 
 /* Seccion video */
 
-.container-video{
-    background-image: url("../assets/img/fondomoviesinopsis.png");
-}
+
 
 .videostop{
     display: flex;

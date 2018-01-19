@@ -1,21 +1,150 @@
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+  max-width: 1300px;
+  margin: auto;
 }
+
 body {
-  background-image: url("../assets/img/fondomoviesinopsis.png");
-  background-size: cover;
+  background-image: url(../assets/img/fondomoviesinopsis.png);
+  background-size: 100vh;
+  background-repeat: repeat;
 }
 
-/* header */
-img[alt="logo-nav"]{
+header#header {
+  padding: 0;
+  background: rgb(255, 255, 255);
+  min-height: 100px;
+  box-sizing: border-box;
+}
+
+#inner-header, #inner-content, #inner-footer, .inner-content {
+  max-width: max-content;
+  margin: auto;
+}
+
+.bar-lightblue {
+  border-bottom: 8px solid rgb(171, 225, 250);
+}
+
+/* Centrar nav */
+
+header#header nav {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+  display: block;
+  margin-top: 27px;
   position: relative;
-  bottom: 0.5em;
-  height: 7.5vh;
-  width: 21vw;
 }
 
+/* Coloca logo al costado del nav */
+
+header#header #logo {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+  padding-left: 12.5px;
+  padding-right: 12.5px;
+  margin: 0;
+  padding-top: 10px;
+}
+
+/* Poner en horizontal */
+
+ul#menu-top-tabs > li {
+  display: block;
+  position: relative;
+  float: left;
+  width: inherit;
+}
+
+
+input[type="search"] {
+  height: 32px;
+  font-size: .8em;
+  width: 58%;
+  float: left;
+  border-radius: 3px;
+  transition: .4s all ease;
+}
+
+
+input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], select, textarea, .field {
+  font-size: initial;
+  margin-top: 5px;
+  line-height: 1em;
+  padding: 0 10px;
+  border-radius: 3px;
+  border: 0;
+  width: 100%;
+  max-width: 400px;
+  font-family: 'Dosis', sans-serif;
+  background-color: #eaedf2;
+  box-sizing: border-box;
+  -webkit-transition: background-color 0.24s ease-in-out;
+  transition: background-color 0.24s ease-in-out;
+}
+
+
+ul#menu-top-tabs > li > a {
+  color: #6D6E70;
+  font-family: 'Dosis', sans-serif;
+  font-weight: bold;
+  text-align: left;
+  width: 100%;
+  border-left: #DADBDC 2px solid;
+}
+
+ul#menu-top-tabs > li:first-child > a {
+  border-left: none;
+}
+
+ul#menu-top-tabs > li:nth-last-child(2) > a {
+  border-left: none;
+}
+
+ul#menu-top-tabs > li:nth-last-child(3) > a {
+  border-left: none;
+}
+
+ul#menu-top-tabs > li:nth-last-child(4) > a {
+  border-left: none;
+}
+
+ul#menu-top-tabs > li:last-child > a {
+  border-left: none;
+}
+
+i.fa {
+  padding-right: 5px;
+}
+
+ul#menu-top-tabs > li > a.fb{
+  min-width: 5px;
+}
+
+ul#menu-top-tabs > li > a.twitter{
+  min-width: 5px;
+}
+
+.btn-primary {
+  color: #fff;
+  border: lightseagreen;
+  margin: 5px 5px;
+  font-family: 'Dosis', sans-serif;
+  font-weight: bold;
+  border-radius: 10px;
+  width: 80px;
+}
+
+li .inicio{
+  margin-left: 20px;
+}
+
+/* Fin Navbar */
 /* section movie-details: */
 
 
@@ -89,58 +218,42 @@ img[alt="logo-nav"]{
 }
 /* end section comments-movies*/
 
-/* footer */
-footer{
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  background-color: #443f91;
-  color: #ffffff;
+/* Footer */
+
+footer {
+  background: #39BFCD;
+  overflow: hidden;
+  clear: both;
+  padding: 2em 0;
+  box-sizing: border-box;
 }
 
-footer li{
+footer .footer-nav-section h6 {
+  color: #C0E7FA;
+  font-size: 1em;
+}
+
+nav.containernav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.footer-nav-section {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 16.66667%;
+  float: left;
+  padding-left: 12.5px;
+  padding-right: 12.5px;
+}
+
+.footer-nav-section li{
   list-style: none;
 }
 
-@media screen and (min-width:991px){
-  /* header */
-  img[alt="logo-nav"]{
-    position: relative;
-    right: 6em;
-    top: 1em;
-    width: 11%;
-    height: 9vh;
-  }
-  /* section movie details */
-
-  /* section movie comments */
-  #quote-carousel
-  {
-    margin-bottom: 0;
-    padding: 0 2.5rem 1.875rem 2.5rem;
-  }
-
-  #quote-carousel .carousel-indicators {
-      bottom: -1.25rem !important;
-  }
-  #quote-carousel .carousel-indicators li {
-      display: inline-block;
-      margin: 0rem 0.3125rem;
-      width: 0.9375rem;
-      height: 0.9375rem;
-  }
-  #quote-carousel .carousel-indicators li.active {
-      margin: 0rem 0.3125rem;
-      width: 1.25rem;
-      height: 1.25rem;
-  }
-
-  /* footer */
-  img[alt="logo-footer"]{
-    position: relative;
-    left: 14em;
-    top: 1em;
-    width: 30%;
-  }
+.footer-nav-section ul{
+  padding: 0;
 }
