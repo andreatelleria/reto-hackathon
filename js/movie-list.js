@@ -15,13 +15,13 @@ $(document).ready(() => {
     event.preventDefault();
     if ($(this).val() === 'adventure') {
       for (var i = 0 ;i < peliculas['adventure'].length ; i++) {
-        console.log(peliculas['adventure'][i].poster);
+        console.log(peliculas['adventure'][i].title);
         var $img = $('<img>');
         $img.attr('src', peliculas['adventure'][i].poster);
         $('.container-peli').append($img);
-        $('.container-peli').html('<h5>' + peliculas['adventure'][i] + '</h5>');
+        $('.container-peli').append('<p>' + peliculas['adventure'][i].title + '</p>');
       }
-    }
+    } 
   });
 });
 
@@ -67,5 +67,4 @@ function getMovie() {
       alert('Error, cerrar la pag');
     });
 }
-
 
