@@ -7,6 +7,27 @@ $(document).ready(() => {
     getMovies(searchText);
     event.preventDefault();
   });
+
+  // var $selectGenero = ('#selectGenero');
+
+  // eventos
+  $('#selectGenero').on('change', function(event) {
+    event.preventDefault();
+    if ($(this).val() === 'adventure') {
+      for (var i = 0 ;i < peliculas['adventure'].length ; i++) {
+        console.log(peliculas['adventure'][i].poster);
+        var $img = $('<img>');
+        var $text = $('<h5></h5>');
+        $img.attr('src', peliculas['adventure'][i].poster);
+        $text(peliculas['adventure'][i].title);
+        console.log($text);
+        
+        // img.attr('src',peliculas["adventure"][i].poster);
+        $('.container-peli').append($img);
+        // $('.container-peli').append($text);
+      }
+    }
+  });
 });
 
 // 
@@ -51,3 +72,5 @@ function getMovie() {
       alert('Error, cerrar la pag');
     });
 }
+
+

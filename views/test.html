@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MovieKids</title>
+    <!-- Logo en browser tab -->
+    <link rel="shortcut icon" href="../assets/img/tab-logo.png">
+    <!-- cdn de fontawesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Framework Bootstrap enlazado -->
+    <link rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.min.css">
+    <!-- Hoja de estilo CSS enlazada -->
+    <link rel="stylesheet" href="../css/movie-info2.css">
+</head>
+
+<body>
+<!-- header -->
+<header id="header" class="bar-lightblue">
+    <div id="inner-header" class="group">
+        <p id="logo" class="h1">
+            <a href="#" rel="nofollow">
+                <img src="../assets/img/logo.png" width="100">
+            </a>
+        </p>
+        <!-- <div class="nav-icon">
+          <div class="c-hamburger c-hamburger--htx">
+            <span>MENU</span>
+          </div> -->
+
+        <nav class="mainNav">
+            <ul id="menu-top-tabs" class="nav top-nav group">
+                <li class="menu">
+                    <a href="#">
+                        <i class="fa fa-film" aria-hidden="true" style="color:darkviolet"></i>Películas</a>
+                </li>
+                <li class="menu">
+                    <a href="#">
+                        <i class="fa fa-television" aria-hidden="true" style="color:royalblue"></i>Series</a>
+                </li>
+                <li class="menu">
+                    <a href="#">
+                        <i class="fa fa-star" aria-hidden="true" style="color:red"></i>Estrenos</a>
+                </li>
+                <li class="menu">
+                    <a href="#">
+                        <i class="fa fa-pencil" aria-hidden="true" style="color:darkorange"></i>Recomendaciones</a>
+                </li>
+                <li>
+                    <div>
+                        <input type="text" id="searchText" name="searchText" placeholder="Pelicula">
+                    </div>
+                </li>
+                <li class="menu">
+                    <button type="button" class="btn btn-primary btn-sm inicio" style="background-color:lightseagreen">
+                        Cerrar Sesión
+                    </button>
+                </li>
+                <li>
+                    <a href="#" class="fb" target="_blank">
+                        <i class="fa fa-facebook" aria-hidden="true" style="color:steelblue"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="twitter" target="_blank">
+                        <i class="fa fa-twitter" aria-hidden="true" style="color:deepskyblue"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="image-container">
+            </div>
+            <div class="text-container"></div>
+        </div>
+    </div>
+
+</div>
+
+
+
+<!-- footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <nav class="containernav">
+                    <div class="footer-nav-section">
+                        <h6>Explora</h6>
+                        <ul>
+                            <li>
+                                <a href="#">Sobre Nosotros</a>
+                            </li>
+                            <li>
+                                <a href="#">Movie Kids</a>
+                            </li>
+                            <li>
+                                <a href="#">Free Resources</a>
+                            </li>
+                            <li>
+                                <a href="#">Películas en vivo</a>
+                            </li>
+                            <li>
+                                <a href="#">Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-nav-section">
+                        <h6>Participa</h6>
+                        <ul>
+                            <li>
+                                <a href="#">Comentarios</a>
+                            </li>
+                            <li>
+                                <a href="#">Valoraciones</a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">Medallas</a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">Me gusta</a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">Favoritos</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-nav-section">
+                        <h6>Contacto</h6>
+                        <ul>
+                            <li>
+                                <a href="/contact/">Contáctanos</a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">Soporte</a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">Licencia &amp; Distribución</a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">Trabaja con Nosotros</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-nav-section">
+                        <h6>Síguenos</h6>
+                        <ul>
+                            <li>
+                                <a href="#" target="_blank">Facebook</a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">Instagram</a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">Pinterest</a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">Twitter</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-nav-section">
+                        <img src="../assets/img/logoblanco.png" alt="">
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Librería Jquery enlazada -->
+<script src="../vendors/jquery/jquery-3.2.1.min.js"></script>
+<!-- Archivo Jquery de Bootstrap enlazado -->
+<script src="../vendors/bootstrap/js/bootstrap.min.js"></script>
+<!-- Firebase-->
+<script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-storage.js"></script>
+<!-- Archivo JS enlazado-->
+<script src="../js/movie-list.js"></script>
+</body>
+
+</html>
