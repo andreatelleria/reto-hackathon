@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-
-=======
 $(document).ready(function () {
     // constante de url para imagenes de MovieDB
     const PRE_IMAGE_URL = 'http://image.tmdb.org/t/p/w500';
