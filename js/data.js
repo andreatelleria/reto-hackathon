@@ -4,31 +4,36 @@ var peliculas = {
       genre: 'adventure',
       director: 'Andrew Stanton, Lee Unkrich(co-director)',
       writer: 'Andrew Stanton (original story by), Andrew Stanton (screenplay by), Bob Peterson (screenplay by), David Reynolds (screenplay by)',
-      actors: 'Albert Brooks, Ellen DeGeneres, Alexander Gould, Willem Dafoe'
+      actors: 'Albert Brooks, Ellen DeGeneres, Alexander Gould, Willem Dafoe',
+      poster: 'https://images-na.ssl-images-amazon.com/images/M/MV5BZjMxYzBiNjUtZDliNC00MDAyLTg3N2QtOWNjNmNhZGQzNDg5XkEyXkFqcGdeQXVyNjE2MjQwNjc@._V1_SX300.jpg'
     },
     {title: 'The Incredibles',
       genre: 'adventure',
       director: 'Brad Bird',
       writer: 'Brad Bird',
-      actors: 'Craig T. Nelson, Holly Hunter, Samuel L. Jackson, Jason Lee'
+      actors: 'Craig T. Nelson, Holly Hunter, Samuel L. Jackson, Jason Lee',
+      poster: 'https://images-na.ssl-images-amazon.com/images/M/MV5BMTY5OTU0OTc2NV5BMl5BanBnXkFtZTcwMzU4MDcyMQ@@._V1_SX300.jpg'
     },
     {title: 'Up',
       genre: 'adventure',
       director: 'Pete Docter, Bob Peterson(co-director)',
       writer: 'Pete Docter (story by), Bob Peterson (story by), Tom McCarthy (story by), Bob Peterson (screenplay by), Pete Docter (screenplay by)',
-      actors: 'Edward Asner, Christopher Plummer, Jordan Nagai, Bob Peterson'
+      actors: 'Edward Asner, Christopher Plummer, Jordan Nagai, Bob Peterson',
+      poster: 'https://images-na.ssl-images-amazon.com/images/M/MV5BMTk3NDE2NzI4NF5BMl5BanBnXkFtZTgwNzE1MzEyMTE@._V1_SX300.jpg'
     },
     {title: 'Frozen',
       genre: 'adventure',
       director: 'Chris Buck, Jennifer Lee',
       writer: 'Jennifer Lee (screenplay by), Hans Christian Andersen (story inspired by \"The Snow Queen\" by), Chris Buck (story by), Jennifer Lee (story by), Shane Morris (story by)',
-      actors: 'Kristen Bell, Idina Menzel, Jonathan Groff, Josh Gad'
+      actors: 'Kristen Bell, Idina Menzel, Jonathan Groff, Josh Gad',
+      poster: 'https://images-na.ssl-images-amazon.com/images/M/MV5BMTQ1MjQwMTE5OF5BMl5BanBnXkFtZTgwNjk3MTcyMDE@._V1_SX300.jpg'
     },
     {title: 'Wreck-It Ralph',
       genre: 'adventure',
       director: 'Rich Moore',
       writer: 'Rich Moore (story by), Phil Johnston (story by), Jim Reardon (story by), Phil Johnston (screenplay by), Jennifer Lee (screenplay by), John C. Reilly (additional story material by), Sam Levine (additional story material by), Jared Stern (additional story material by)',
-      actors: 'John C. Reilly, Sarah Silverman, Jack McBrayer, Jane Lynch'
+      actors: 'John C. Reilly, Sarah Silverman, Jack McBrayer, Jane Lynch',
+      poster: 'https://images-na.ssl-images-amazon.com/images/M/MV5BNzMxNTExOTkyMF5BMl5BanBnXkFtZTcwMzEyNDc0OA@@._V1_SX300.jpg'
     },
   ],
   'science': [
@@ -36,31 +41,36 @@ var peliculas = {
       genre: 'science-fiction',
       director: 'Andrew Stanton',
       writer: 'Andrew Stanton (original story by), Pete Docter (original story by), Andrew Stanton (screenplay by), Jim Reardon (screenplay by)',
-      actors: 'Ben Burtt, Elissa Knight, Jeff Garlin, Fred Willard'
+      actors: 'Ben Burtt, Elissa Knight, Jeff Garlin, Fred Willard',
+      poster: 'https://images-na.ssl-images-amazon.com/images/M/MV5BMjExMTg5OTU0NF5BMl5BanBnXkFtZTcwMjMxMzMzMw@@._V1_SX300.jpg'
     },
     {title: 'Monsters vs. Aliens',
       genre: 'science-fiction',
       director: 'Rob Letterman, Conrad Vernon',
       writer: 'Maya Forbes (screenplay), Wallace Wolodarsky (screenplay)',
-      actors: 'Reese Witherspoon, Rainn Wilson, Stephen Colbert'
+      actors: 'Reese Witherspoon, Rainn Wilson, Stephen Colbert',
+      poster: 'https://images-na.ssl-images-amazon.com/images/M/MV5BMTY0OTQ3MzE3MV5BMl5BanBnXkFtZTcwMDQyMzMzMg@@._V1_SX300.jpg'
     },
     {title: 'Cloudy with a Chance of Meatballs',
       genre: 'science-fiction',
       director: 'Phil Lord, Christopher Miller',
       writer: 'Phil Lord (written for the screen by), Christopher Miller (written for the screen by)',
-      actors: 'Anna Faris, Bill Hader, Bruce Campbell'
+      actors: 'Anna Faris, Bill Hader, Bruce Campbell',
+      poster: 'https://images-na.ssl-images-amazon.com/images/M/MV5BMTg0MjAwNDI5MV5BMl5BanBnXkFtZTcwODkyMzg2Mg@@._V1_SX300.jpg'
     },
     {title: 'Home',
       genre: 'science-fiction',
       director: 'Tim Johnson',
       writer: 'Tom J. Astle (screenplay by), Matt Ember (screenplay by)',
-      actors: 'Jim Parsons, Rihanna, Steve Martin'
+      actors: 'Jim Parsons, Rihanna, Steve Martin',
+      poster: 'https://images-na.ssl-images-amazon.com/images/M/MV5BMjExOTQ4MDMyMV5BMl5BanBnXkFtZTgwMTE3NDM2MzE@._V1_SX300.jpg'
     },
     {title: 'Turbo',
       genre: 'science-fiction',
       director: 'David Soren',
       writer: 'Darren Lemke (screenplay), Robert D. Siegel (screenplay)',
-      actors: 'Ryan Reynolds, Paul Giamatti, Maya Rudolph'
+      actors: 'Ryan Reynolds, Paul Giamatti, Maya Rudolph',
+      poster: 'https://images-na.ssl-images-amazon.com/images/M/MV5BMTA4NTgwMjM5MzheQTJeQWpwZ15BbWU3MDg2ODA1ODk@._V1_SX300.jpg'
     },
   ],
   'comedy': [
@@ -68,31 +78,36 @@ var peliculas = {
       genre: 'comedy',
       director: 'Tom McGrath',
       writer: 'Michael McCullers, Marla Frazee (based on the book by)',
-      actors: 'Alec Baldwin, Steve Buscemi, Jimmy Kimmel, Lisa Kudrow'
+      actors: 'Alec Baldwin, Steve Buscemi, Jimmy Kimmel, Lisa Kudrow',
+      poster: 'https://images-na.ssl-images-amazon.com/images/M/MV5BMTg5MzUxNzgxNV5BMl5BanBnXkFtZTgwMTM2NzQ3MjI@._V1_SX300.jpg'
     },
     {title: 'Toy Story',
       genre: 'comedy',
       director: 'John Lasseter',
       writer: 'John Lasseter (original story by), Pete Docter (original story by)',
-      actors: 'Tom Hanks, Tim Allen, Don Rickles'
+      actors: 'Tom Hanks, Tim Allen, Don Rickles',
+      poster: 'https://images-na.ssl-images-amazon.com/images/M/MV5BMDU2ZWJlMjktMTRhMy00ZTA5LWEzNDgtYmNmZTEwZTViZWJkXkEyXkFqcGdeQXVyNDQ2OTk4MzI@._V1_SX300.jpg'
     },
     {title: 'Monsters, Inc.',
       genre: 'comedy',
       director: 'Pete Docter, David Silverman (co-director)',
       writer: 'Pete Docter (original story by), Jill Culton (original story by)',
-      actors: 'Billy Crystal, John Goodman, Mary Gibbs'
+      actors: 'Billy Crystal, John Goodman, Mary Gibbs',
+      poster: 'https://images-na.ssl-images-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_SX300.jpg'
     },
     {title: 'Shrek',
       genre: 'comedy',
       director: 'Andrew Adamson, Vicky Jenson',
       writer: 'William Steig (book), Ted Elliott',
-      actors: 'Mike Myers, Eddie Murphy, Cameron Diaz'
+      actors: 'Mike Myers, Eddie Murphy, Cameron Diaz',
+      poster: 'https://images-na.ssl-images-amazon.com/images/M/MV5BOGZhM2FhNTItODAzNi00YjA0LWEyN2UtNjJlYWQzYzU1MDg5L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg'
     },
     {title: 'Ice Age',
       genre: 'comedy',
       director: 'Chris Wedge, Carlos Saldanha (co-director)',
       writer: 'Michael J. Wilson (story), Michael Berg (screenplay)',
-      actors: 'Denis Leary, John Leguizamo, Ray Romano'
+      actors: 'Denis Leary, John Leguizamo, Ray Romano',
+      poster: 'https://images-na.ssl-images-amazon.com/images/M/MV5BMmYxZWY2NzgtYzJjZC00MDFmLTgxZTctMjRiYjdjY2FhODg3XkEyXkFqcGdeQXVyNjk1Njg5NTA@._V1_SX300.jpg'
     },
   ],
   'fantasy': [
@@ -100,31 +115,36 @@ var peliculas = {
       genre: 'fantasy',
       director: 'Lee Unkrich, Adrian Molina (co-director)',
       writer: 'Lee Unkrich (original story by), Jason Katz (original story by',
-      actors: 'Anthony Gonzalez, Gael García Bernal, Benjamin Bratt'
+      actors: 'Anthony Gonzalez, Gael García Bernal, Benjamin Bratt',
+      poster: 'https://images-na.ssl-images-amazon.com/images/M/MV5BYjQ5NjM0Y2YtNjZkNC00ZDhkLWJjMWItN2QyNzFkMDE3ZjAxXkEyXkFqcGdeQXVyODIxMzk5NjA@._V1_SX300.jpg'
     },
     {title: 'Ferdinand',
       genre: 'fantasy',
       director: 'Carlos Saldanha',
       writer: 'Munro Leaf (based on the book by), Robert Lawson (based on the book by)',
-      actors: 'John Cena, Kate McKinnon, Bobby Cannavale'
+      actors: 'John Cena, Kate McKinnon, Bobby Cannavale',
+      poster: 'https://images-na.ssl-images-amazon.com/images/M/MV5BOTIwMDI0NjQ4OF5BMl5BanBnXkFtZTgwNjU0MzAyNDM@._V1_SX300.jpg'
     },
     {title: 'Zootopia',
       genre: 'fantasy',
       director: 'Byron Howard, Rich Moore',
       writer: 'Byron Howard (story by), Rich Moore (story by)',
-      actors: 'Ginnifer Goodwin, Jason Bateman, Idris Elba'
+      actors: 'Ginnifer Goodwin, Jason Bateman, Idris Elba',
+      poster: 'https://images-na.ssl-images-amazon.com/images/M/MV5BOTMyMjEyNzIzMV5BMl5BanBnXkFtZTgwNzIyNjU0NzE@._V1_SX300.jpg'
     },
     {title: 'Ratatouille',
       genre: 'fantasy',
       director: 'Brad Bird, Jan Pinkava (co-director)',
       writer: 'Brad Bird (screenwriter), Jan Pinkava (original story by)',
-      actors: 'Brad Garrett, Lou Romano, Patton Oswalt'
+      actors: 'Brad Garrett, Lou Romano, Patton Oswalt',
+      poster: 'https://images-na.ssl-images-amazon.com/images/M/MV5BMTMzODU0NTkxMF5BMl5BanBnXkFtZTcwMjQ4MzMzMw@@._V1_SX300.jpg'
     },
     {title: 'A Bugs Life',
       genre: 'fantasy',
       director: 'John Lasseter, Andrew Stanton (co-director)',
       writer: 'John Lasseter (original story by), Andrew Stanton (original story by)',
-      actors: 'Kevin Spacey, Dave Foley, Julia Louis-Dreyfus'
+      actors: 'Kevin Spacey, Dave Foley, Julia Louis-Dreyfus',
+      poster: 'https://images-na.ssl-images-amazon.com/images/M/MV5BNThmZGY4NzgtMTM4OC00NzNkLWEwNmEtMjdhMGY5YTc1NDE4XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg'
     },
   ],
   'musical': [
@@ -132,31 +152,36 @@ var peliculas = {
       genre: 'musical',
       director: 'Roger Allers, Rob Minkoff',
       writer: 'Irene Mecchi (screenplay by), Jonathan Roberts (screenplay by)',
-      actors: 'Matthew Broderick, Jeremy Irons, James Earl Jones '
+      actors: 'Matthew Broderick, Jeremy Irons, James Earl Jones',
+      poster: 'https://images-na.ssl-images-amazon.com/images/M/MV5BYTYxNGMyZTYtMjE3MS00MzNjLWFjNmYtMDk3N2FmM2JiM2M1XkEyXkFqcGdeQXVyNjY5NDU4NzI@._V1_SX300.jpg'
     },
     {title: 'Madagascar',
       genre: 'musical',
       director: 'Eric Darnell, Tom McGrath',
       writer: 'Mark Burton, Billy Frolick',
-      actors: 'Chris Rock, Ben Stiller, David Schwimmer'
+      actors: 'Chris Rock, Ben Stiller, David Schwimmer',
+      poster: 'https://images-na.ssl-images-amazon.com/images/M/MV5BN2I5YzFlYWEtZjRhNy00ZmQzLWJhNTktZGIwYjFjODdmNDgxXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg'
     },
     {title: 'Tangled',
       genre: 'musical',
       director: 'Nathan Greno, Byron Howard',
       writer: 'Dan Fogelman (screenplay by), Jacob Grimm (based upon the fairy tale "Rapunzel" by) (as the Brothers Grimm)',
-      actors: 'Mandy Moore, Zachary Levi, Donna Murphy'
+      actors: 'Mandy Moore, Zachary Levi, Donna Murphy',
+      poster: 'https://images-na.ssl-images-amazon.com/images/M/MV5BMTAxNDYxMjg0MjNeQTJeQWpwZ15BbWU3MDcyNTk2OTM@._V1_SX300.jpg'
     },
     {title: 'Moana',
       genre: 'musical',
       director: 'Ron Clements, John Musker',
       writer: 'Jared Bush (screenplay by), Ron Clements (story by)',
-      actors: 'Aulii Cravalho, Dwayne Johnson, Rachel House'
+      actors: 'Aulii Cravalho, Dwayne Johnson, Rachel House',
+      poster: 'https://images-na.ssl-images-amazon.com/images/M/MV5BMjI4MzU5NTExNF5BMl5BanBnXkFtZTgwNzY1MTEwMDI@._V1_SX300.jpg"'
     },
     {title: 'Barbie as the Princess and the Pauper',
       genre: 'musical',
       director: 'William Lau',
       writer: 'Cliff Ruby, Elana Lesser',
-      actors: 'Kelly Sheridan, Melissa Lyons, Julie Stevens'
+      actors: 'Kelly Sheridan, Melissa Lyons, Julie Stevens',
+      poster: 'https://images-na.ssl-images-amazon.com/images/M/MV5BMTUyMzQ1NTg4NF5BMl5BanBnXkFtZTcwMDQwNDYyMQ@@._V1_SX300.jpg'
     },
   ]
 };
