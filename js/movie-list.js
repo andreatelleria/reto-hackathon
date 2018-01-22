@@ -17,14 +17,9 @@ $(document).ready(() => {
       for (var i = 0 ;i < peliculas['adventure'].length ; i++) {
         console.log(peliculas['adventure'][i].poster);
         var $img = $('<img>');
-        var $text = $('<h5></h5>');
         $img.attr('src', peliculas['adventure'][i].poster);
-        $text(peliculas['adventure'][i].title);
-        console.log($text);
-        
-        // img.attr('src',peliculas["adventure"][i].poster);
         $('.container-peli').append($img);
-        // $('.container-peli').append($text);
+        $('.container-peli').html('<h5>' + peliculas['adventure'][i] + '</h5>');
       }
     }
   });
